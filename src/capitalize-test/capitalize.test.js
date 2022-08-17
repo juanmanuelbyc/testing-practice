@@ -1,10 +1,10 @@
-const capitalize = require('./capitalize');
+const capitalize = require('./capitalize.js');
 
 test('capitalize hello to be Hello', () => {
-  //Arrange
+  // Arrange
   const str = 'hello';
-  //Act
+  // Act
   const result = capitalize(str);
-  //Assert
+  // Assert
   expect(result).toBe('Hello');
 });
